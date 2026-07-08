@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Mirror",
+  "description": "Instant webcam mirror with camera and mic status",
+  "version": "1.0",
+  "icons": {
+    "16":  "icon16.png",
+    "32":  "icon32.png",
+    "48":  "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_title": "Open Mirror",
+    "default_popup": "mirror.html",
+    "default_icon": {
+      "16":  "icon16.png",
+      "32":  "icon32.png",
+      "48":  "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "mirror@neal.rs",
+      "strict_min_version": "109.0"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "WebSearch",
+      "Bash(node --check /Users/neal/Documents/repos/chrome_mirror/mirror.js)"
+    ]
+  }
+}
